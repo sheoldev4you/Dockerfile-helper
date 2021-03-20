@@ -1,6 +1,7 @@
 FROM alpine:3.8
 
 LABEL maintainer="Teddy Fontaine"
+LABEL org.opencontainers.image.source https://github.com/tfSheol/Dockerfile-helper
 
 ARG NGINX_VERSION
 
